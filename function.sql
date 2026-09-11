@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION add_five(p_num NUMBER)
+RETURN NUMBER
+IS
+BEGIN
+    RETURN p_num + 5;
+END;
+/
